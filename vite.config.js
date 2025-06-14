@@ -7,8 +7,8 @@ export default defineConfig({
    server: {
       proxy: {
          '/api': {
-            target: 'https://simple-products-backend.vercel.app',
-         },
-      },
+            target: 'http://localhost:5000',
+         }
+      }
    },
 });
